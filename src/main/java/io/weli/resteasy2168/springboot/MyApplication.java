@@ -4,10 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import javax.ws.rs.ApplicationPath;
-import javax.ws.rs.core.Application;
 
 @SpringBootApplication
-@ApplicationPath("/")
+/*
+ * 如果path设置为`/`，那么'/actuator'就会失效。
+ */
+@ApplicationPath("/rest")
 public class MyApplication extends javax.ws.rs.core.Application {
     public static void main(String[] args) {
         SpringApplication.run(MyApplication.class, args);

@@ -2,8 +2,8 @@ package io.weli.resteasy2168.springboot;
 
 import org.springframework.stereotype.Component;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
 
 @Component
 @Path("/hello")

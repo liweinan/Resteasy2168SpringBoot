@@ -47,3 +47,10 @@ $ curl -v http://localhost:8080/actuator
 {"_links":{"self":{"href":"http://localhost:8080/actuator","templated":false},"health":{"href":"http://localhost:8080/actuator/health","templated":false},"health-path":{"href":"http://localhost:8080/actuator/health/{*path}","templated":true},"shutdown":{"href":"http://localhost:8080/actuator/shutdown","templated":false}}}* Closing connection 0
 $
 ```
+
+Access static file:
+
+```bash
+➤ curl http://localhost:8080/foo.txt
+content of foo.txt⏎
+```

@@ -21,7 +21,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <resteasy.version>6.2.1.Final</resteasy.version>
-        <springboot.version>3.4.4</springboot.version>
+        <springboot.version>3.5.4</springboot.version>
         <version.resteasy.springboot>6.3.0.Final</version.resteasy.springboot>
         <version.jakarta.ws.rs-api>4.0.0</version.jakarta.ws.rs-api>
     </properties>
